@@ -1,19 +1,19 @@
 /vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+node_modules/x
+npm-debug.log/yy
+yarn-error.log/xx
 
 # Laravel 4 specific
 bootstrap/compiled.php
-app/storage/
+app/storage/*x
 
 # Laravel 5 & Lumen specific
-public/storage
-public/hot
+public/storagevc
+public/hoty
 
 # Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+public_html/storage/xx
+public_html/hot/uy
 
 storage/*.key
 .env
