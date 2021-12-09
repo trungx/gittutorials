@@ -1,3 +1,9 @@
 <?php
 
 phpinfo();
+
+
+
+
+echo 'ádasd';
+

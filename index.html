@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.8.4/tinymce.min.js" integrity="sha512-dAKJ6KqskV6VF0DPtLX7PcRgXoa4saf3VjCV4EClBoFnil9T9I4q96PayH4RvwIx/YNr0ejO4BaWazlhPC1Cmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+  tinymce.init({
+    selector: 'textarea',  // change this value according to your HTML
+    plugins: 'code',
+    toolbar: 'code',
+    menubar: 'tools',
+    invalid_elements: 'a[href]',
+    });
+  </script>
+</head>
+
+<body>
+<h1>TinyMCE Quick Start Guide</h1>
+  <form method="post">
+    <textarea id="mytextarea">Hello, World!</textarea>
+  </form>
+</body>
+</html>
